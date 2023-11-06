@@ -12,7 +12,7 @@ packages:
   - htop
   - neofetch
 snap:
-  - commands
+  commands:
     00: snap install btop
 
 users:
@@ -25,6 +25,7 @@ users:
     lock_passwd: true
     ssh_authorized_keys: 
       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQAXMT9OmodpLiSGe6ThudrMGiUCEdRNXY1DEnCbXc8Fm+Mtzm1EPRthmbcmW2BcjwRHjHGwAbUf9u5u0jsEJ3ynnWM5xu8BNeBchovKo6/V/T/6Sa5+wclfgzF4dB6dhAv+Rh7AAye4Udt6VggRhwEGLA3SZi2CRUzq31B2vbPi15ogBLI0n+PKi/jgNlWAlPgB17xZJV+j1tGMFANxxfvbbAlVcLNssW0B0RycUsCwFuy3Pbj+1zGLYXuU2hGob6AlWShIv4tDfBOAv4yKrxreKRK/PbPF6LEJy9KQe2aWqB6j6//2yK2XC5R5j6AmVRLjMjxHF/aSNNhQn+xRMak11JS8CUd/DQkgnTRTWqrVCoIQBZm4als1oL6p2V6q/JbC9Wl71XDH6wVMq2qndVhHYymoJSQcbXkFg/WeEzvw0qTVxkyZ9zQc6E8THw+qUDRgdqKksid+55cfeb2uPqzeUiqnLXRfffkDPLfIbH2DZU3MT4QWVn+Hk/0oem2WU= chafey@Chriss-MBP-2"
+      - "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBB/JbMwXMVASucINHTCllDqWyS5hoGZYnjg2n8kooFMN15spmO90te6RPw4lHDGwcUDTgsK1doMp2yr9rxeLDxY="
 
 write_files:
 - path: /lib/systemd/system/code-server.service
